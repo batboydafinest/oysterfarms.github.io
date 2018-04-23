@@ -1,0 +1,43 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.written {
+  background-color: #a0e5ff;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 950px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.written h2 {
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+.written p {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+img {
+  text-align: center;
+}
+
+.dd {
+  padding-left: 290px;
+}
+
+.ddd {
+  padding-left: 245px;
+}
+
+.dddd{
+  padding-left: 230px;
+}

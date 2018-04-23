@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  background-color: #f9f9f9;
+}
+
+
+header {
+  height: 100px;
+  background-image: url("background.JPG");
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.headcenter {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.left {
+  float: left;
+}
+
+.title {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+nav {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c4c4c4;
+}
+
+.white {
+  background-color: #c4c4c4;
+  height: 50px;
+}
+
+.dropdown {
+  z-index: 1;
+  display: none;
+  position: absolute;
+}
+
+.hover:hover .dropdown a {
+  display: block;
+  background-color: #3eb200;
+  width: 223.25px;
+  padding-left: 3px;
+  color: white;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.hover:hover .dropdown a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #438cb2;
+}
+
+.hover:hover .dropbut{
+  background-color: #3eb200;
+  color: white;
+}
+
+
+.dropbut {
+  cursor: pointer;
+  border: none;
+  width: 226.25px;
+  float: left;
+  padding: 0;
+  margin: 0px;
+  text-align: center;
+  background-color: #c4c4c4;
+  height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+  text-decoration: none;
+
+}
+
+.hover {
+  float: left;
+  width: 226.25px;
+}
+
+.hover:hover .dropdown {
+  display: block;
+  top: 200px;
+}
+
+nav a.hover {
+  color: black;
+  text-decoration: none;
+}
+
+.body {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foot{
+  margin-top: 25px;
+  background-color: #9b9b9b;
+  padding-bottom: 2px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 2px;
+  margin-bottom: 10px;
+}
+
+.left h5 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.left2 {
+  width: 40%;
+  float: left;
+}
+
+.right {
+  width: 40%;
+  float: left;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.right a:hover {
+  background-image: url('backicon.png');
+  background-repeat: no-repeat;
+}
+
+.float {
+  float: right;
+  margin-right: 20px;
+}
+
+.centerish {
+  text-align: center;
+}
+
+.centerish a {
+  color: black;
+  text-decoration: none;
+}
+
+.centerish a:hover {
+  color: #004707;
+}
